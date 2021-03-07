@@ -1,0 +1,845 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+<head>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+   
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/default.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/layout.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/media-queries.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/magnific-popup.css') }}"> 
+  
+
+    <!-- Script
+    ================================================== -->
+     <script src="{{url_for('static', filename='js/modernizr.js')}}"></script>       
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" href="~/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Header
+    ================================================== -->
+    <header id="home">
+
+        <nav id="nav-wrap">
+
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+                <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul> <!-- end #nav -->
+
+        </nav> <!-- end #nav-wrap -->
+
+        <div class="row banner">
+            <div class="banner-text">
+                <h1 class="responsive-headline">Hi, I'm Dhruv Kalia</h1>
+                <h3>
+                    Pursuing MSc. AI and Robotics at University of Hertfordshire. With over 4 years of software development
+                    experience with strong interest in machine learning, currently looking for full time opportunities starting from
+                    Sept’ 21. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+                    and learn more <a class="smoothscroll" href="#about">about me</a>.
+                </h3>
+                <hr />
+                <ul class="social">                  
+                    <li><a href="https://www.linkedin.com/in/dhruvkalia/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/dhruvkalia13"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p>
+
+    </header> <!-- Header End -->
+    <!-- About Section
+    ================================================== -->
+    <section id="about">
+
+        <div class="row">
+
+            <div class="three columns">
+
+                <img class="profile-pic" src="../static/images/profilepic.jpg" alt="" />
+
+            </div>
+
+            <div class="nine columns main-col">
+
+                <h2>About Me</h2>
+
+                <p>
+                    A passionate software developer and machine learning enthusiast, currently pursuing MSc. Artificial Intelligence and Robotics at University of Hertfordshire, UK. Have a huge knack for finding AI and ML application opportunities in the widest of the fields.
+
+                    With over 4 years of java development, I am well versed with design, implementation, and development of Object-Oriented Applications in Client/Server environments using Java/J2EE.
+
+                    Apart from striving to excel in my profession, I keep myself busy with a lot of other hobbies, like playing chess, watching sports and working out, things that have shaped me into this holistic being that I am today.
+                </p>
+
+                <div class="row">
+
+                    <div class="columns contact-details">
+
+                        <h2>Contact Details</h2>
+                        <p class="address">
+                            <span>Dhruv Kalia</span><br>
+                            <span>
+                                1600 Amphitheatre Parkway<br>
+                                Mountain View, CA 94043 US
+                            </span><br>
+                            <span>(123)456-7890</span><br>
+                            <span>anyone@website.com</span>
+                        </p>
+
+                    </div>
+                    <div class="columns download">
+                        <p>                           
+                            <a href="../static/images/portfolio/Resume_Dhruv_Kalia.pdf" download>
+                                <i class="fa fa-download"></i>Download Resume
+                            </a>                           
+                        </p>
+                    </div>
+                </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+        </div>
+
+    </section> <!-- About Section End-->
+    <!-- Resume Section
+    ================================================== -->
+    <section id="resume">
+
+        <!-- Education
+        ----------------------------------------------- -->
+        <div class="row education">
+
+            <div class="three columns header-col">
+                <h1><span>Education</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>University of Hertfordshire</h3>
+                        <p class="info">MSc. Artificial Intelligence with Robotics <span>&bull;</span> <em class="date">September 2020</em></p>
+
+                        <p>
+                            (Artificial Life and Robotics, Theory and Practice of Artificial Intelligence,
+                            Machine Learning and Neural Networks)
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>
+                            Amity School of Engineering and Technology, India
+                        </h3>
+                        <p class="info">Bachelor of Technology (Computer Science and Engineering) <span>&bull;</span> <em class="date">June 2012 – 2016</em></p>
+
+                        <p>
+                            First Class Honors (73.26%)
+                            (Object Oriented Programming, Java Programming Language, Algorithms,
+                            Data Structures, Mobile Computing)
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End Education -->
+        <!-- Work
+        ----------------------------------------------- -->
+        <div class="row work">
+
+            <div class="three columns header-col">
+                <h1><span>Work</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Accenture, India</h3>
+                        <p class="info">Software Engineer <span>&bull;</span> <em class="date">Feb’ 17 – Aug’ 20</em></p>
+
+                        <p>
+                            • Created RESTful APIs to channelize data pipeline between several applications using spring and hibernate framework <br />
+                            • Developed a chat bot for insurance agents using NLTK and tensorflow <br />
+                            • Designed and developed backend architecture using hibernate for an insurance and e-commerce client <br />
+                            • Improved SQL query performance by minimizing number of records to be which reduced the DB response time by 70% <br />
+                            • Developed cron jobs to perform automation on server with incoming data <br />
+                            • Worked on third party integrations for payment and login with RazorPay and JusPay <br />
+                            • Implemented Singleton and Facade design pattern for better code accessibility <br />
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Utopia Innovations, India</h3>
+                        <p class="info">Backend Developer (Intern) <span>&bull;</span> <em class="date">Sept’ 16 – Jan’ 17</em></p>
+
+                        <p>
+                            • Created backend APIs consumed by Android and iOS application <br />
+                            • Developed Social Networking Android Application from scratch <br />
+                            • Adapted Memory Optimization techniques so as to minimize thread utilization of the app <br />
+                            • Followed Material Design Guidelines while setting the theme of the application in the very early stage of development <br />
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+                <div class="row item">
+
+                    <div class="twelve columns">
+
+                        <h3>Glance Media Technologies, India</h3>
+                        <p class="info">Android Application Developer (Intern) <span>&bull;</span> <em class="date">Jan’ 16 – July’ 16</em></p>
+
+                        <p>
+                            • Wrote modules for social media logins, custom SMS/email login, analytics tracking, push notification support, in app notifications, background syncing <br />
+                            • Scaled to 40K+ users within first 5 months of launch. <br />
+                            • Helped in defining and strategize on all the visual elements of the company <br />
+                            • Standardized guidelines that were used by the content team for all the stories done by Glance as well as images posted on all social platforms <br />
+                        </p>
+
+                    </div>
+
+                </div> <!-- item end -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End Work -->
+        <!-- Skills
+        ----------------------------------------------- -->
+        <div class="row skill">
+
+            <div class="three columns header-col">
+                <h1><span>Skills</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <p>
+                    Below are the Skill Sets which i know so far.
+                </p>
+
+                <div class="bars">
+
+                    <ul class="skills">
+                        <li><span class="bar-expand photoshop"></span><em>Core Java</em></li>
+                        <li><span class="bar-expand illustrator"></span><em>Git</em></li>
+                        <li><span class="bar-expand wordpress"></span><em>Data Structures</em></li>
+                        <li><span class="bar-expand css"></span><em>Python</em></li>
+                        <li><span class="bar-expand html5"></span><em>Machine Learning</em></li>
+                        <li><span class="bar-expand jquery"></span><em>Deep Learning</em></li>
+                        <li><span class="bar-expand html5"></span><em>NLP</em></li>
+                        <li><span class="bar-expand jquery"></span><em>Data Mining</em></li>
+                    </ul>
+
+                </div><!-- end skill-bars -->
+
+            </div> <!-- main-col end -->
+
+        </div> <!-- End skills -->
+
+    </section> <!-- Resume Section End-->
+    <!-- Portfolio Section
+    ================================================== -->
+    <section id="portfolio">
+
+        <div class="row">
+
+            <div class="twelve columns collapsed">
+
+                <h1>Check Out Some of My Works.</h1>
+
+                <!-- portfolio-wrapper -->
+                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-01" title="">
+                                <img alt="" src="../static/images/portfolio/coffee.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Coffee</h5>
+                                        <p>Illustrration</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-02" title="">
+                                <img alt="" src="../static/images/portfolio/console.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Console</h5>
+                                        <p>Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-03" title="">
+                                <img alt="" src="../static/images/portfolio/judah.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Judah</h5>
+                                        <p>Webdesign</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-04" title="">
+                                <img alt="" src="../static/images/portfolio/into-the-light.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Into The Light</h5>
+                                        <p>Photography</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-05" title="">
+                                <img alt="" src="../static/images/portfolio/farmerboy.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Farmer Boy</h5>
+                                        <p>Branding</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-06" title="">
+                                <img alt="" src="../static/images/portfolio/girl.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Girl</h5>
+                                        <p>Photography</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-07" title="">
+                                <img alt="" src="../static/images/portfolio/origami.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Origami</h5>
+                                        <p>Illustrration</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+
+                            <a href="#modal-08" title="">
+                                <img alt="" src="../static/images/portfolio/retrocam.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Retrocam</h5>
+                                        <p>Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div>  <!-- item end -->
+
+                </div> <!-- portfolio-wrapper end -->
+
+            </div> <!-- twelve columns end -->
+            <!-- Modal Popup
+             --------------------------------------------------------------- -->
+
+            <div id="modal-01" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="../static/images/portfolio/modals/m-coffee.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Confusion-Angular</h4>
+                    <p>Confusion is a single-page AngularJS/Node.js web application for an indian-based restaurant called confusion that aims to show restaurant's available dishes and make users able to favorite and comment them. The application is built on the MEAN Stack of technologies and using RESTful web services architecture.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/confusion-angular" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-01 End -->
+
+            <div id="modal-02" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="../static/images/portfolio/modals/m-console.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>UFO-ML-density-based-clustering</h4>
+                    <p>Density-based Clustering locates regions of high density that are separated from one another by regions of low density. Density, in this context, is defined as the number of UFO sightings done all across globe.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Client name</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/UFO-ML-density-based-clusering" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-02 End -->
+
+            <div id="modal-03" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-judah.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>kaggle-to-github</h4>
+                    <p>A python script to download kernels and datasets from kaggle and push them to your new/exisiting git repository.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/kaggle-to-github" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-03 End -->
+
+            <div id="modal-04" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Covid-19 data notification</h4>
+                    <p>A python script which sends out hourly notification having the count of live number of COVID-19 cases in India.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/covid-19-data-notification" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-04 End -->
+
+            <div id="modal-05" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Autoconvert-ipynb-Markdown</h4>
+                    <p>The idea is to automatically convert any ipynb to markdown (README.md) using nbconvert triggered by customized pre-commit hook when ipynb is updated and committed.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/Autoconvert-ipynb-Markdown" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-05 End -->
+
+            <div id="modal-06" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-girl.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>
+                        chatbot_nlp
+                    </h4>
+                    <p>A customer support chatbot developed using NLU and sequential model to understand user's intent and answer accordingly.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/chatbot_nlp" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-06 End -->
+
+            <div id="modal-07" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-origami.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>nfc-wave-and-pay</h4>
+                    <p>A demo application which showcases the flow of data (money) through the NFC (Near Field Communication) technology in android handheld devices.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/nfc-wave-and-pay" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-07 End -->
+
+            <div id="modal-08" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="~/images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>
+                        news-on-the-go
+                    </h4>
+                    <p>An android application which shows latest news from all around the globe in an intuitive UI.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://github.com/dhruvkalia13/news-on-the-go" target="_blank">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div><!-- modal-01 End -->
+
+
+        </div> <!-- row End -->
+
+    </section> <!-- Portfolio Section End-->
+    <!-- Call-To-Action Section
+    ================================================== -->
+    <section id="call-to-action">
+
+        <div class="row">
+
+            <!-- <div class="two columns header-col">
+
+                <h1><span>Get Hosting.</span></h1>
+
+            </div> -->
+
+            <!-- <div class="seven columns">
+
+                <h2><span class="lead">Unde Omnis Iste</span></h2>
+                <p>
+                    <span class="lead">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.
+                    </span>
+                </p>
+
+            </div> -->
+
+            <div class="three columns action">
+
+
+
+            </div>
+
+        </div>
+
+    </section> <!-- Call-To-Action Section End-->
+    <!-- Testimonials Section
+    ================================================== -->
+    <section id="testimonials">
+
+        <div class="text-container">
+
+            <div class="row">
+
+                <div class="two columns header-col">
+
+                    <h1><span>Client Testimonials</span></h1>
+
+                </div>
+
+                <div class="ten columns flex-container">
+
+                    <div class="flexslider">
+
+                        <ul class="slides">
+
+                            <li>
+                                <blockquote>
+                                    <p>
+                                        Dhruv is highly skilled individual. He always aspire to become better. He started developing android application for utopia from scratch. Mine expertise lies in API and iOS application development. We needed someone who can do the android part. Though he joined as an intern at Utopia, his skill developed quickly. He didn't fear that how he will write code from scratch. He is a kind of person any team would love to have. We offered him full time role by seeing his work ethics.
+                                    </p>
+                                    <cite>Ankush Kumar S ,Senior IOS developer, Infosys</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+
+                            <li>
+                                <blockquote>
+                                    <p>
+                                        Dhruv is a great JAVA developer that I’ve had the pleasure to have in my Article Data Quality product team for 10 months.
+                                        The Article Data quality product team has been working with improvements both in terms of new development and improvements of existing functionality.
+                                        Dhruv is very good at meeting deadlines, he has always a positive attitude and he is a good colleague, always prepared to help the rest of the team.
+                                        During the 10 months Dhruv worked in my team we had not a single incident caused by development so he is very concerned about the quality of what he is developing.
+                                        He is definitely a person I would like to have in my team also in the future.
+                                    </p>
+                                    <cite>Katarina Edenalv, Product Owner at H&M</cite>
+                                </blockquote>
+                            </li> <!-- slide ends -->
+                            <li>
+                                <blockquote>
+                                    <p>
+                                        Dhruv is one of the finest programmers I have worked with. Thanks Dhruv for all the help and great work on various projects that we have worked on. I think that you are very motivated and like a challenge at work! You really know what you are doing and you are doing it GREAT!
+                                    </p>
+                                    <cite>Vikas Minhas, Senior Application Developer at Accenture</cite>
+                                </blockquote>
+                            </li>
+                        </ul>
+
+                    </div> <!-- div.flexslider ends -->
+
+                </div> <!-- div.flex-container ends -->
+
+            </div> <!-- row ends -->
+
+        </div>  <!-- text-container ends -->
+
+    </section> <!-- Testimonials Section End-->
+    <!-- Contact Section
+    ================================================== -->
+    <section id="contact">
+
+        <div class="row section-head">
+
+            <div class="two columns header-col">
+
+                <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                <p class="lead">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="eight columns">
+
+                <!-- form -->
+                <form action="" method="post" id="contactForm" name="contactForm">
+                    <fieldset>
+
+                        <div>
+                            <label for="contactName">Name <span class="required">*</span></label>
+                            <input type="text" value="" size="35" id="contactName" name="contactName">
+                        </div>
+
+                        <div>
+                            <label for="contactEmail">Email <span class="required">*</span></label>
+                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                        </div>
+
+                        <div>
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                        </div>
+
+                        <div>
+                            <label for="contactMessage">Message <span class="required">*</span></label>
+                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="submit">Submit</button>
+                            <span id="image-loader">
+                                <img alt="" src="images/loader.gif">
+                            </span>
+                        </div>
+
+                    </fieldset>
+                </form> <!-- Form End -->
+                <!-- contact-warning -->
+                <div id="message-warning"> Error boy</div>
+                <!-- contact-success -->
+                <div id="message-success">
+                    <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+                </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+                <div class="widget widget_contact">
+
+                    <h4>Address and Phone</h4>
+                    <p class="address">
+                        Jonathan Doe<br>
+                        1600 Amphitheatre Parkway <br>
+                        Mountain View, CA 94043 US<br>
+                        <span>(123) 456-7890</span>
+                    </p>
+
+                </div>
+
+                <div class="widget widget_tweets">
+
+                    <h4 class="widget-title">Latest Tweets</h4>
+
+                    <ul id="twitter">
+                        <li>
+                            <span>
+                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                                <a href="#">http://t.co/CGIrdxIlI3</a>
+                            </span>
+                            <b><a href="#">2 Days Ago</a></b>
+                        </li>
+                        <li>
+                            <span>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi
+                                <a href="#">http://t.co/CGIrdxIlI3</a>
+                            </span>
+                            <b><a href="#">3 Days Ago</a></b>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </section> <!-- Contact Section End-->
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
+                </ul>
+
+            </div>
+
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+        </div>
+
+    </footer> <!-- Footer End-->
+    <!-- Java Script
+    ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="static/js/jquery-1.10.2.min.js"><\/script>')</script>
+
+
+<script src="{{url_for('static', filename='js/jquery-migrate-1.2.1.min.js')}}"></script>
+ <script src="{{url_for('static', filename='js/jquery.flexslider.js')}}"></script>
+ <script src="{{url_for('static', filename='js/waypoints.js')}}"></script>
+ <script src="{{url_for('static', filename='js/jquery.fittext.js')}}"></script>
+ <script src="{{url_for('static', filename='js/magnific-popup.js')}}"></script>
+ <script src="{{url_for('static', filename='js/init.js')}}"></script>
+</body>
+
+</html>
